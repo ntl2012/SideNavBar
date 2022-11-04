@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainContent{
+            display: flex;
+            justify-content: center;
+            width: 1920px;
+            height: 960px;
+            background-color: #F5F8FF;
+            margin: 0px;
+            padding: 0px;
+        }
+        .middlePart ul{
+            list-style: none;
+            padding: 25px;
+            position: relative;
+            left: 20px;
+            width: 248px;
+            height: 48px;
+        }
+        .leftPart{
+            position: absolute;
+            top: 329px;
+            left: 267px;
+        }
+        .titleInfo{
+            color: #2D68FE;
+            font-size: 100px;
+        }
+        .detailedInfo{
+            color: #181818;
+            font-size: 38px;
+        }
+        .middlePart{
+            position: absolute;
+            left: 1175px;
+            top: 234px;
+            border: 1px solid transparent;
+            background-color: white;
+            border-radius: 8px;
+            width: 288px;
+            height: 871px;
+            padding: 0%;
+        }
+        .logoIcon{
+            position: relative;
+            left: 0px;
+        }
+        .navHead{
+            font-size: 24px;
+            color: #324054;
+            position: relative;
+            bottom: 8px;
+            left: 10px;
+        }
+        .topPartDesktop{
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+        .topPartDesktop li{
+            margin-top: 10px;
+            width: 248px;
+            height: 44px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .topPartDesktop li:hover{
+            background-color: #EFF6FF;
+        }
+        .topPartDesktop li span{
+            position: relative;
+            bottom: 1px;
+            left: 11px;
+        } 
+        .bottomPartDesktop{
+            margin-top: 80px;
+        }
+        .bottomPartDesktop li{
+            margin: 10px;
+            width: 248px;
+            height: 44px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .bottomPartDesktop li:hover{
+            background-color: #EFF6FF;
+        }
+        .bottomPartDesktop li span{
+            position: relative;
+            bottom: 1px;
+            left: 11px;
+        }
+        .rightPart{
+            position: absolute;
+            left: 1500px;
+            top: 234px;
+            border: 1px solid transparent;
+            background-color: white;
+            border-radius: 8px;
+            width: 85px;
+            height: 745px;
+            padding: 0px;
+            margin: 0px;
+        }
+        .rightPart ul{
+            list-style: none;
+            padding: 25px;
+        }
+        .topPartMobile{
+            padding-left: 0px;
+            margin-top: 20px;
+        }
+        .topPartMobile li{
+            margin-top: 19px;
+            width: 28px;
+            height: 28px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .topPartMobile li:hover{
+            background-color: #EFF6FF;
+        }
+        .bottomPartMobile{
+            margin-top: 85px;
+        }
+        .bottomPartMobile li{
+            margin-top: 19px;
+            width: 28px;
+            height: 28px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .bottomPartMobile li:hover{
+            background-color: #EFF6FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContent">
+        <div class="leftPart">
+            <span class="titleInfo"> Side <br> Navigation Bar </span>
+            <br>
+            <span class="detailedInfo"> With Auto Layout & Components </span>
+        </div>
+        <div class="middlePart"> 
+            <ul> <img src="./Logo.png" class="logoIcon"> <span class="navHead"> Sales.io </span>
+                <div class="topPartDesktop">
+                    <li> <img src="./homeIcon.png"> <span> Home </span> </li>
+                    <li> <img src="./dashboardIcon.png"> <span> Dashboard </span> </li>
+                    <li> <img src="./productsIcon.png"> <span> Products </span> </li>
+                    <li> <img src="./analyticsIcon.png"> <span> Analytics </span> </li>
+                    <li> <img src="./scheduleIcon.png"> <span> Schedules </span> </li>
+                    <li> <img src="./historyIcon.png"> <span> History </span> </li>
+                    <li> <img src="./salesIcon.png"> <span> Sales </span> </li>
+                </div>
+                <div class="bottomPartDesktop">
+                    <li> <img src="./messagesIcon.png"> <span> Messages </span> </li>
+                    <li> <img src="./notificationsIcon.png"> <span> Notifications </span> </li>
+                    <li> <img src="./settingsIcon.png"> <span> Settings </span> </li>
+                </div>
+            </ul>
+        </div>
+        <div class="rightPart"> 
+            <ul> <img src="./Logo.png" class="logoIcon">
+                <div class="topPartMobile">
+                    <li> <img src="./homeIcon.png">  </li>
+                    <li> <img src="./dashboardIcon.png"> </li>
+                    <li> <img src="./productsIcon.png"> </li>
+                    <li> <img src="./analyticsIcon.png"> </li>
+                    <li> <img src="./scheduleIcon.png"> </li>
+                    <li> <img src="./historyIcon.png"> </li>
+                    <li> <img src="./salesIcon.png"> </li>
+                </div>
+                <div class="bottomPartMobile">
+                    <li> <img src="./messagesIcon.png"> </li>
+                    <li> <img src="./scheduleIcon.png"> </li>
+                    <li> <img src="./settingsIcon.png"> </li>
+                    <li> <img src="./rowIcon.png"> </li>
+                    <li> <img src="./Frame 1.png"> </li>
+                </div>
+            </ul>    
+        </div>
+    </div>
+</body>
+</html>
